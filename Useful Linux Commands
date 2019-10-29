@@ -1,2 +1,4 @@
 #To untar a tar file
 tar -xvf <file.tar> 
+#To search occurence of specific word in  file
+grep "word" file.txt
