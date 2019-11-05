@@ -2,3 +2,5 @@
 tar -xvf <file.tar> 
 #To search occurence of specific word in  file
 grep "word" file.txt
+#To find the folders which contain a non-empty specific file.
+ls -l 2.*/Tranliterated_words_first_run.dat | awk '{if ($5 != 0) print $9}'
